@@ -192,12 +192,20 @@ p {
     margin-bottom: 70px;
 }
 
+.Onderkant {
+    margin-bottom: 140px;
+}
+
 .InfoLinks {
     padding-left: 100px;
     padding-right: 20px;
     width: 50%;
     float: left;
-    text-align: justify;
+    text-align: ;
+}
+
+.InfoLinks img {
+    width: 100%;  
 }
 
 .InfoLinks h2 {
@@ -205,12 +213,18 @@ p {
     margin-top: 0;
 }
 
+.InfoRechts h2 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
 .InfoRechts {
     padding-left: 20px;
     padding-right: 100px;
     width: 50%;
     float: left;
-    text-align: justify;
+    text-align: ;
 }
 
 .InfoRechts img {
@@ -356,9 +370,33 @@ p {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .KnopMail:hover {
+    background-color: #fbc99d;
+    color: #042f4b;
+}
+
+.KnopKnop {
+    margin: 0 auto;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #042f4b;
+    color: #fff6da;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+.KnopKnop:hover {
     background-color: #fbc99d;
     color: #042f4b;
 }
