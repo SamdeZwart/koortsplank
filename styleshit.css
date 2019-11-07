@@ -7,22 +7,22 @@ html,body{
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
+  font-family: 'Poppins-SemiBold';
   src: url(/font/Poppins-SemiBold.woff);
 }
 
 @font-face {
-    font-family: Poppins-Regular;
+    font-family: 'Poppins-Regular';
     src: url(/font/Poppins-Regular.woff);
 }
 
 @font-face {
-    font-family: Poppins-Thin;
+    font-family: 'Poppins-Thin;
     src: url(/font/Poppins-Thin.woff);
 }
 
 @font-face {
-    font-family: Poppins-SemiBoldItalic;
+    font-family: 'Poppins-SemiBoldItalic';
     src: url(/font/Poppins-SemiBoldItalic.woff);
 }
 
