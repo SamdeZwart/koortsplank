@@ -8,7 +8,7 @@ html,body{
 
 @font-face {
   font-family: 'Poppins-SemiBold';
-  src: url(font/Poppins-SemiBold.woff);
+  src: url(/font/Poppins-SemiBold.woff);
 }
 
 @font-face {
