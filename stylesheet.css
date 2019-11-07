@@ -45,8 +45,7 @@ html,body{
 }
 
 @font-face {
-    font-family: Poppins-SemiBoldItalic;
-    src: url(/font/Poppins-SemiBoldItalic.woff) format("woff");
+    font-family: 'Poppins', sans-serif;
 }
 
 br {
