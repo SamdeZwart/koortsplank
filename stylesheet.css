@@ -31,12 +31,12 @@ html,body{
 
 @font-face {
   font-family: 'Poppins-SemiBold';
-  src: url("../font/Poppins-SemiBold.woff") format("woff");
+  src: url(../font/Poppins-SemiBold.woff) format("woff");
 }
 
 @font-face {
     font-family: 'Poppins-Regular';
-    src: url(../font/Poppins-Regular.woff) format("woff");
+    src: url("../font/Poppins-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -63,7 +63,7 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     font-size: 65px;
     margin-top: 0;
     color: #042f4b;
@@ -72,14 +72,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-Regular';
     font-size: 25px;
     margin-bottom: 0;
     color: #fbc99d;
 }
 
 h3 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     color: #fff6da;
     font-size: 25px;
 }
@@ -99,7 +99,7 @@ p {
     vertical-align: bottom;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     background: #042f4b;
     color: #fff6da;
     border-radius: 40px;
@@ -115,7 +115,7 @@ p {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     background: #042f4b;
     color: #fff6da;
     border-radius: 40px;
@@ -140,7 +140,7 @@ p {
 .Navigatie {
     display: none;
     padding: 10px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     position:fixed;
     right: 0;
     top: 200px;
@@ -152,7 +152,7 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fff6da;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     text-align: center;
     word-spacing: 8px;
     color: #042f4b;
@@ -255,7 +255,7 @@ p {
 .SpeelWidget {
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     background-color: #042f4b;
     margin-bottom: 70px;
     margin-top: 30px;
@@ -273,7 +273,7 @@ p {
 }
 
 .Footer a {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins-SemiBold';
     color: #042f4b;
 }
 
