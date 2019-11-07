@@ -1,0 +1,395 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Space from this element (entire page) and others*/
+
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(/font/Poppins-SemiBold.woff);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/font/Poppins-Regular.woff);
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url(/font/Poppins-Thin.woff);
+}
+
+@font-face {
+    font-family: Poppins-SemiBoldItalic;
+    src: url(/font/Poppins-SemiBoldItalic.woff);
+}
+
+.Navigatie {
+        display: none;
+    }
+
+
+h1 {
+    font-family: 'Poppins-Semibold';
+    font-size: 60px;
+    margin-top: 0;
+    color: #042f4b;
+}
+
+h2 {
+    font-family: 'Poppins-Semibold';
+    font-size: 25px;
+    margin-bottom: 0;
+    color: #fbc99d;
+}
+
+p {
+    font-family: 'Poppins-Regular';
+    line-height: 1.5em;
+}
+
+
+br {
+    display: block;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #042f4b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fbc99d;
+}
+
+h1 {
+    font-family: 'Poppins-Semibold';
+    font-size: 65px;
+    margin-top: 0;
+    color: #042f4b;
+}
+
+h2 {
+    font-family: 'Poppins-Semibold';
+    font-size: 25px;
+    margin-bottom: 0;
+    color: #fbc99d;
+}
+
+h3 {
+    font-family: 'Poppins-Semibold';
+    color: #fff6da;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Poppins-SemiboldItalic';
+
+}
+
+.Knop {
+    display: table;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins-Semibold';
+    background: #042f4b;
+    color: #fff6da;
+    border-radius: 40px;
+}
+
+.Knop:hover {
+    background:#fbc99d;
+    color: #042f4b;
+}
+
+.KnopAgenda {
+    display: table;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins-Semibold';
+    background: #042f4b;
+    color: #fff6da;
+    border-radius: 40px;
+}
+
+
+.KnopAgenda:hover {
+    background:#fbc99d;
+    color: #042f4b;
+}
+
+.NaviMobiel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff6da;
+    font-family: 'Poppins-Semibold';
+    text-align: center;
+    word-spacing: 8px;
+    color: #042f4b;
+    margin-bottom: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.NaviMobiel a {
+    color: #042f4b;
+}
+
+.NaviMobiel a:hover {
+    color: #fbc99d;
+}
+
+.Header {  
+    display: ;
+    width: 100%;
+    height: 50vh;
+    background-color: #042f4b;
+
+}
+
+.Links {
+    padding-top: 60px;
+    background-color: #042f4b;
+    width: 100%;
+    display: block;
+    height: 10vh;
+    
+}
+
+.Rechts {
+    width: 100%;
+    background-image: url(HeaderIMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 10%;
+    display: block;
+    height: 40vh;
+    
+}
+
+.Logo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.Titel {
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20xx;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 545px){
+    .WWW {
+        font-size: 45px;
+    }   
+    
+    .CastCrew {
+        padding-left: 20px;
+    }
+
+    .Laptop {
+        display: none;
+    }
+    
+    .Tablet {
+        display: none;
+    }
+    
+    .Footer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .SpeelWidgetAgenda {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    
+}
+
+.WWW {
+    margin: 0;
+}
+
+.Info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.InfoLinks {
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+
+.InfoRechts {
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+    margin-bottom: 120px;
+    text-align: justify;
+}
+    
+@media screen and (min-width: 545px){
+    .Speellijstje{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
+    .Titel {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
+    .CastTitel {
+    }
+    
+    .Info {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
+    .Footer {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    
+    .CastCrew {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    
+    .Mobiel {
+        display: none;
+    }
+    
+    .Laptop {
+        display: none;
+    }
+    
+    .SpeelWidgetAgenda {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 50px;
+    }
+
+}
+
+
+.CastCrew {
+    display: inline-flex;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.Cast {
+    display: inline-flex;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.Cast1 {
+    width: 50%;
+    margin-right: 20px;
+    background-color: #042f4b;
+}
+
+.Cast1 h3 {
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.Cast1 h4 {
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #fbc99d
+}
+
+.Cast1 img {
+    width: 100%;
+}
+
+.Speellijstje {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 120px;
+}
+
+.SpeelWidget {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins-Semibold';
+    background-color: #042f4b;
+    margin-bottom: 70px;
+}
+
+.SpeelWidgetAgenda {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins-Semibold';
+    background-color: #042f4b;
+    margin-bottom: 70px;
+}
+
+.Footer {
+    margin-top: 100px;
+    background-color: #fff6da;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    color: #042f4b;
+    font-family: 'Poppins-Semibold';
+}
+
+.Footer a {
+    font-family: 'Poppins-Semibold';
+    color: #042f4b;
+}
+
+.Footer a:hover {
+    font-family: 'Poppins-Semibold';
+    color: #fbc99d;
+}
+
+.Kolom1 {
+    padding-top: 20px;
+    float: left;
+    width: 60%
+}
+
+.Kolom2 {
+    float: left;
+    width: 0%;
+    bottom: 0;
+}
+
+.Kolom3 {
+    float: left;
+    width: 40%;
+    text-align: right;
+    align-items: center;
+    align-content: center;
+    vertical-align: bottom;
+}
+.Kolom3 img {
+    padding-top: 20px;
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+    
+}

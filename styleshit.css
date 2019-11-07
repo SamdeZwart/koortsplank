@@ -1,0 +1,380 @@
+html,body{
+    font-family: 'Poppins-Semibold';
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Space from this element (entire page) and others*/
+
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(/font/Poppins-SemiBold.woff);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/font/Poppins-Regular.woff);
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url(/font/Poppins-Thin.woff);
+}
+
+@font-face {
+    font-family: Poppins-SemiBoldItalic;
+    src: url(/font/Poppins-SemiBoldItalic.woff);
+}
+
+br {
+    display: block;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #042f4b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fbc99d;
+}
+
+h1 {
+    font-family: 'Poppins-Semibold';
+    font-size: 65px;
+    margin-top: 0;
+    color: #042f4b;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-family: 'Poppins-Semibold';
+    font-size: 25px;
+    margin-bottom: 0;
+    color: #fbc99d;
+}
+
+h3 {
+    font-family: 'Poppins-Semibold';
+    color: #fff6da;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Poppins-SemiboldItalic';
+
+}
+
+p {
+    font-family: 'Poppins-Regular';
+    line-height: 1.5em;
+}
+
+.Knop {
+    display: table-cell; 
+    vertical-align: bottom;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins-Semibold';
+    background: #042f4b;
+    color: #fff6da;
+    border-radius: 40px;
+}
+
+.Knop:hover {
+    background:#fbc99d;
+    color: #042f4b;
+}
+
+.NaviMobiel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff6da;
+    font-family: 'Poppins-Semibold';
+    text-align: center;
+    word-spacing: 8px;
+    color: #042f4b;
+    margin-bottom:;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.NaviMobiel a {
+    color: #042f4b;
+}
+
+.NaviMobiel a:hover {
+    color: #fbc99d;
+}
+
+.Header {  
+    display: block;
+    padding-top: 50px;
+    width: 100%;
+    height: 50vh;
+    background-color: #042f4b;
+    margin-bottom: 230px;
+}
+
+.Toneel {
+    height: 100vh;
+}
+
+.Musical {
+    height: 100vh;
+}
+
+.Links {
+    padding-top: 20px;
+    background-color: #042f4b;
+    width: 100%;
+    display: block;
+    height: 10vh;
+    
+}
+
+.Rechts {
+    width: 100%;
+    background-image: url(HeaderIMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    display: block;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.RechtsToneel {
+    width: 100%;
+    background-image: url(/over/Man-Over.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% -50%;
+    display: block;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.RechtsMusical {
+    width: 100%;
+    background-image: url(/musical/CMIYC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    display: block;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.Logo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.Titel {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.CastTitel {
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.Koorstplank {
+    margin-bottom: 50px;
+}
+
+.Info {
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.InfoLinks {
+    padding-left: 100px;
+    padding-right: 20px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+.InfoLinks h2 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.InfoRechts {
+    padding-left: 20px;
+    padding-right: 100px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+.InfoRechts img {
+    width: 100%;
+}
+
+.CastCrew {
+    display: inline-flex;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Cast1 {
+    width: 25%;
+    margin-right: 20px;
+    background-color: #042f4b;
+}
+
+.Cast1 h3 {
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.Cast1 h4 {
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #fbc99d
+}
+
+.Cast1 img {
+    width: 100%;
+}
+
+.Speellijstje {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.SpeelWidgetAgenda {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins-Semibold';
+    background-color: #042f4b;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.Footer {
+    margin-top: 200px;
+    background-color: #fff6da;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    color: #042f4b;
+}
+
+
+.Kolom1 {
+    padding-top: 20px;
+    float: left;
+    width: 40%
+}
+
+.Kolom2 {
+    float: left;
+    width: 40%;
+    bottom: 0;
+}
+
+.Kolom3 {
+    float: left;
+    width: 20%;
+    text-align: right;
+    align-items: center;
+    align-content: center;
+    vertical-align: bottom;
+}
+
+.Kolom3 img {
+    padding-top: 20px;
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+    
+}
+
+.Mobiel {
+    display: none;
+}
+
+.Tablet {
+    display: none;
+}
+
+.KnopMail {
+    margin: 0 auto;
+    align-self: center;
+    font-family: 'Poppins-Regular';
+    background-color: #042f4b;
+    color: #fff6da;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.KnopMail:hover {
+    background-color: #fbc99d;
+    color: #042f4b;
+}
+
+.ContactFormulier {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #042f4b;
+    position: relative;
+    z-index: 0;
+    
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 2px solid #fbc99d; /* Gray border */ /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bericht {
+    height: 280px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
