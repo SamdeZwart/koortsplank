@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap');
+
 html,body{
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     width: 100%;
     height: 100%;
     margin: 0; /* Space from this element (entire page) and others*/
@@ -29,25 +32,6 @@ html,body{
     }
 }
 
-@font-face {
-  font-family: 'Poppins-SemiBold';
-  src: url(../font/Poppins-SemiBold.woff) format("woff");
-}
-
-@font-face {
-    font-family: 'Poppins-Regular';
-    src: url("../font/Poppins-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Poppins-Thin';
-    src: url(../font/Poppins-Thin.woff) format("woff");
-}
-
-@font-face {
-    font-family: 'Poppins', sans-serif;
-}
-
 br {
     display: block;
     margin-bottom: 1em;
@@ -63,7 +47,8 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 65px;
     margin-top: 0;
     color: #042f4b;
@@ -72,14 +57,16 @@ h1 {
 }
 
 h2 {
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 25px;
     margin-bottom: 0;
     color: #fbc99d;
 }
 
 h3 {
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #fff6da;
     font-size: 25px;
 }
@@ -90,7 +77,8 @@ h4 {
 }
 
 p {
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     line-height: 1.5em;
 }
 
@@ -99,7 +87,8 @@ p {
     vertical-align: bottom;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background: #042f4b;
     color: #fff6da;
     border-radius: 40px;
@@ -115,7 +104,8 @@ p {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background: #042f4b;
     color: #fff6da;
     border-radius: 40px;
@@ -140,7 +130,8 @@ p {
 .Navigatie {
     display: none;
     padding: 10px;
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     position:fixed;
     right: 0;
     top: 200px;
@@ -152,7 +143,8 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fff6da;
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-align: center;
     word-spacing: 8px;
     color: #042f4b;
@@ -255,7 +247,8 @@ p {
 .SpeelWidget {
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background-color: #042f4b;
     margin-bottom: 70px;
     margin-top: 30px;
@@ -273,12 +266,14 @@ p {
 }
 
 .Footer a {
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #042f4b;
 }
 
 .Footer a:hover {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #fbc99d;
 }
 
