@@ -8,12 +8,12 @@ html,body{
 
 @font-face {
   font-family: 'Poppins-SemiBold';
-  src: url(/font/Poppins-SemiBold.woff);
+  src: url(font/Poppins-SemiBold.woff);
 }
 
 @font-face {
     font-family: 'Poppins-Regular';
-    src: url(/font/Poppins-Regular.woff);
+    src: url(/font)
 }
 
 @font-face {
