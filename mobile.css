@@ -1,28 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,600i&display=swap');
+
 html,body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     width: 100%;
     height: 100%;
     margin: 0; /* Space from this element (entire page) and others*/
 
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url(/font/Poppins-SemiBold.woff);
-}
-
-@font-face {
-    font-family: Poppins-Regular;
-    src: url(/font/Poppins-Regular.woff);
-}
-
-@font-face {
-    font-family: Poppins-Thin;
-    src: url(/font/Poppins-Thin.woff);
-}
-
-@font-face {
-    font-family: Poppins-SemiBoldItalic;
-    src: url(/font/Poppins-SemiBoldItalic.woff);
 }
 
 .Navigatie {
@@ -31,21 +15,24 @@ html,body{
 
 
 h1 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 60px;
     margin-top: 0;
     color: #042f4b;
 }
 
 h2 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 25px;
     margin-bottom: 0;
     color: #fbc99d;
 }
 
 p {
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     line-height: 1.5em;
 }
 
@@ -65,35 +52,40 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 65px;
     margin-top: 0;
     color: #042f4b;
 }
 
 h2 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 25px;
     margin-bottom: 0;
     color: #fbc99d;
 }
 
 h3 {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #fff6da;
     font-size: 22px;
 }
 
 h4 {
-    font-family: 'Poppins-SemiboldItalic';
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .Knop {
     display: table;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background: #042f4b;
     color: #fff6da;
     border-radius: 40px;
@@ -109,7 +101,8 @@ h4 {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background: #042f4b;
     color: #fff6da;
     border-radius: 40px;
@@ -125,7 +118,8 @@ h4 {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fff6da;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-align: center;
     word-spacing: 8px;
     color: #042f4b;
@@ -152,6 +146,19 @@ h4 {
 
 }
 
+.Mobiel {
+    height: 100vh;
+    margin-bottom: 150px;
+}
+
+.Toneel {
+    height: 100vh;
+}
+
+.Musical {
+    height: 100vh;
+}
+
 .Links {
     padding-top: 60px;
     background-color: #042f4b;
@@ -167,10 +174,32 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 50% 0%;
+    display: block;
+    height: 90vh;
+    
+}
+
+.RechtsToneel {
+    width: 100%;
+    background-image: url(over/Man-Over.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    display: block;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.RechtsMusical {
+    width: 100%;
+    background-image: url(musical/CMIYC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: 50% 10%;
     display: block;
-    height: 40vh;
-    
+    height: 90vh;
+    background-attachment: fixed;
 }
 
 .Logo {
@@ -332,7 +361,8 @@ h4 {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background-color: #042f4b;
     margin-bottom: 70px;
 }
@@ -341,7 +371,8 @@ h4 {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     background-color: #042f4b;
     margin-bottom: 70px;
 }
@@ -353,16 +384,19 @@ h4 {
     padding-bottom: 50px;
     display: flex;
     color: #042f4b;
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .Footer a {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #042f4b;
 }
 
 .Footer a:hover {
-    font-family: 'Poppins-Semibold';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #fbc99d;
 }
 
