@@ -138,17 +138,20 @@ h4 {
     color: #fbc99d;
 }
 
-.Header {  
+.HeaderMobiel {  
     display: ;
     width: 100%;
-    height: 50vh;
     background-color: #042f4b;
+    height: 100vh;
+    margin-bottom: 150px;
 
 }
 
-.Mobiel {
-    height: 100vh;
-    margin-bottom: 150px;
+.Header {
+    display: none;
+    width: 100%;
+    height: 50vh;
+    background-color: #042f4b;
 }
 
 .Toneel {
@@ -268,6 +271,10 @@ h4 {
     float: left;
     margin-bottom: 120px;
     text-align: justify;
+}
+
+.InfoRechts img {
+    width: 100%;
 }
     
 @media screen and (min-width: 545px){
@@ -426,4 +433,69 @@ h4 {
     vertical-align: middle;
     display: block;
     
+}
+
+.KnopMail {
+    margin: 0 auto;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #042f4b;
+    color: #fff6da;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.KnopMail:hover {
+    background-color: #fbc99d;
+    color: #042f4b;
+}
+
+.ContactFormulier {
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #042f4b;
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (max-width:545px) {
+    .ContactFormulier {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 2px solid #fbc99d; /* Gray border */ /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bericht {
+    height: 280px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 }

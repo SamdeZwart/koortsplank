@@ -109,6 +109,10 @@ p {
     margin-bottom: 230px;
 }
 
+.HeaderMobiel {
+    display: none;
+}
+
 .Toneel {
     height: 100vh;
 }
@@ -131,7 +135,7 @@ p {
     background-image: url(HeaderIMG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: 50% 10%;
     display: block;
     height: 50vh;
     background-attachment: fixed;
