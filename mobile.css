@@ -220,7 +220,7 @@ h4 {
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 545px){
+@media screen and (max-width: 760px){
     .WWW {
         font-size: 45px;
     }   
@@ -277,7 +277,7 @@ h4 {
     width: 100%;
 }
     
-@media screen and (min-width: 545px){
+@media screen and (min-width: 760px){
     .Speellijstje{
         margin-right: 40px;
         margin-left: 40px;
@@ -306,7 +306,7 @@ h4 {
         padding-right: 40px;
     }
     
-    .Mobiel {
+    .Tablet {
         display: none;
     }
     
