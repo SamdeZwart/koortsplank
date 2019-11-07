@@ -31,17 +31,17 @@ html,body{
 
 @font-face {
   font-family: 'Poppins-SemiBold';
-  src: url(/font/Poppins-SemiBold.woff) format("woff");
+  src: url(font/Poppins-SemiBold.woff) format("woff");
 }
 
 @font-face {
     font-family: 'Poppins-Regular';
-    src: url(/font/Poppins-Regular.woff) format("woff");
+    src: url(font/Poppins-Regular.woff) format("woff");
 }
 
 @font-face {
     font-family: 'Poppins-Thin';
-    src: url(/font/Poppins-Thin.woff) format("woff");
+    src: url(font/Poppins-Thin.woff) format("woff");
 }
 
 @font-face {
